@@ -1,15 +1,17 @@
 import requests
 from bs4 import BeautifulSoup
 
-def scrape(ticker):
-    url = f"https://finance.yahoo.com/quote/{ticker}/"
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'lxml')
+class Ticker:
+    def __init__(self, ticker):
+        self.ticker = ticker
 
-    price = soup.find_all('div', {
-                                    'class': 'My(6px) Pos(r) smartphone_Mt(6px)'
-                                 }
-                         )[0].find('span').text
-    print(price)
+    def scrape(self):
+        url = f"https://finance.yahoo.com/quote/{self.ticker}/"
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'lxml')
 
-scrape("MCD")
+        price = soup.find_all('div', {
+                                        'class': 'My(6px) Pos(r) smartphone_Mt(6px)'
+                                     }
+                             )[0].find('span').text
+        return price
