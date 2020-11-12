@@ -1,5 +1,9 @@
 from WebScraper import Ticker
-from collections import deque #Double-Ended Queue
+from fbprophet import Prophet
+import pandas as pd
+import numpy as np
+
+
 class PredictionAI:
     def __init__(self, ticker):
         self.ticker = ticker
@@ -12,13 +16,23 @@ class PredictionAI:
             current_price = ticker.scrape()
             data.append(current_price)
 
-        data = deque(data)
 
-    def forecast(self):
-        #Function for time-series forecasting using FBProphet
-        pass
+    def forecast(self, data):
+        data = pd.Dataframe(data)
+        data.columns("Price")
+
+        m = Prophet()
+        m.fit(data)
+
+        future = m.make_future_dataframe(periods=365)
+        forecast = m.predict(future)
+
+        fig1 = m.plot(forecast)
+
+        def components():
+            fig2 = m.plot_components(forecast)
 
     def neural_network(self):
-        #Create a tensorflow model(CNN)
+        #TODO: Create a tensorflow model(CNN)
 
         pass
