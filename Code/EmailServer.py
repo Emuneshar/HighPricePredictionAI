@@ -1,9 +1,11 @@
 import smtplib
 
-sender_email = 
-receiver_email = 
+class Email_Info:
+    def __init__(self, sender_email, receiver_email):    
+        self.sender_email = sender_email
+        self.receiver_email = receiver_email  
 
-class Email:
+class Server(Email_Info):
     def __init__(self, email):
         self.email = email
 
