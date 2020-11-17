@@ -1,4 +1,5 @@
 ﻿using System;
+using HighPricePredictionAI.Data;
 
 namespace HighPricePredictionAI
 {
@@ -6,7 +7,15 @@ namespace HighPricePredictionAI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                Data.WebScraper.Scraper();
+            }
+            catch
+            {
+                Console.WriteLine("Error Found In Code");
+            }
+            
         }
     }
 }

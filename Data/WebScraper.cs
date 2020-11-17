@@ -9,7 +9,7 @@ namespace HighPricePredictionAI.Data
         public static void Scraper()
         {
             var engine = Python.CreateEngine();
-            var source = engine.CreateScriptSourceFromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Scraper.py");
+            var source = engine.CreateScriptSourceFromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Scraper.py"));
             var scope = engine.CreateScope();
             
             source.Execute(scope);
