@@ -1,0 +1,52 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/hs115488/Desktop/HighPricePredictionAI/HighPricePredictionAI.csproj",
+    "projectName": "HighPricePredictionAI",
+    "projectPath": "/home/hs115488/Desktop/HighPricePredictionAI/HighPricePredictionAI.csproj",
+    "outputPath": "/home/hs115488/Desktop/HighPricePredictionAI/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "IronPython": {
+          "target": "Package",
+          "version": "[2.7.11, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/98/sdk/3.1.402/RuntimeIdentifierGraph.json"
+    }
+  }
+}

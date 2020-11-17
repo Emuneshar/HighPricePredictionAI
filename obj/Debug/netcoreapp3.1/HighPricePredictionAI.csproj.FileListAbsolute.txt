@@ -1,0 +1,13 @@
+/home/hs115488/Desktop/HighPricePredictionAI/bin/Debug/netcoreapp3.1/HighPricePredictionAI
+/home/hs115488/Desktop/HighPricePredictionAI/bin/Debug/netcoreapp3.1/HighPricePredictionAI.deps.json
+/home/hs115488/Desktop/HighPricePredictionAI/bin/Debug/netcoreapp3.1/HighPricePredictionAI.runtimeconfig.json
+/home/hs115488/Desktop/HighPricePredictionAI/bin/Debug/netcoreapp3.1/HighPricePredictionAI.runtimeconfig.dev.json
+/home/hs115488/Desktop/HighPricePredictionAI/bin/Debug/netcoreapp3.1/HighPricePredictionAI.dll
+/home/hs115488/Desktop/HighPricePredictionAI/bin/Debug/netcoreapp3.1/HighPricePredictionAI.pdb
+/home/hs115488/Desktop/HighPricePredictionAI/obj/Debug/netcoreapp3.1/HighPricePredictionAI.csprojAssemblyReference.cache
+/home/hs115488/Desktop/HighPricePredictionAI/obj/Debug/netcoreapp3.1/HighPricePredictionAI.AssemblyInfoInputs.cache
+/home/hs115488/Desktop/HighPricePredictionAI/obj/Debug/netcoreapp3.1/HighPricePredictionAI.AssemblyInfo.cs
+/home/hs115488/Desktop/HighPricePredictionAI/obj/Debug/netcoreapp3.1/HighPricePredictionAI.csproj.CoreCompileInputs.cache
+/home/hs115488/Desktop/HighPricePredictionAI/obj/Debug/netcoreapp3.1/HighPricePredictionAI.dll
+/home/hs115488/Desktop/HighPricePredictionAI/obj/Debug/netcoreapp3.1/HighPricePredictionAI.pdb
+/home/hs115488/Desktop/HighPricePredictionAI/obj/Debug/netcoreapp3.1/HighPricePredictionAI.genruntimeconfig.cache
