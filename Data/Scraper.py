@@ -2,11 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 class Ticker:
-    def __init__(self, ticker):
-        self.ticker = ticker
-
     def scrape(self):
-        url = f"https://finance.yahoo.com/quote/{self.ticker}/"
+        url = f"https://finance.yahoo.com/quote/AAPL/"
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'lxml')
 
